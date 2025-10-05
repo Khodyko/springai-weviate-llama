@@ -1,7 +1,7 @@
 server:
   port: 9191
   servlet:
-    context-path: /docrec
+    context-path: /recdoc
     http2:
       enabled: true
     compression:
@@ -17,7 +17,7 @@ spring:
         host: localhost:8080
         scheme: http
         filter-field:
-          fileName: TEXT
+          uid: TEXT
     ollama:
       embedding:
         model: nomic-embed-text

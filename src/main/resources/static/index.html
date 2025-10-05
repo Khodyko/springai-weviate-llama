@@ -2,9 +2,219 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>My Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search and Results</title>
+    <!-- Google Fonts for modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f0f2f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .container {
+            background: #fff;
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Input and button styles */
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 12px 20px;
+            border-radius: 25px;
+            border: 2px solid #ddd;
+            outline: none;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+
+        input[type="text"]:focus {
+            border-color: #007bff;
+        }
+
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 25px;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Table styles */
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0 10px;
+        }
+
+        th, td {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: left;
+        }
+
+        th {
+            background: #e9ecef;
+        }
+
+        tr {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        /* AI response box */
+        .ai-response {
+            margin-top: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            font-style: italic;
+        }
+
+        /* Loading overlay */
+        .loading {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(255,255,255,0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            display: none;
+            z-index: 999;
+        }
+    </style>
 </head>
 <body>
-<h1>Hello, Spring AI!</h1>
+
+<div class="loading" id="loading">Loading...</div>
+
+<div class="container">
+    <h1>Search Documents</h1>
+    <div class="search-box">
+        <input type="text" id="queryInput" placeholder="Enter your query" />
+        <button id="searchBtn">Search</button>
+    </div>
+
+    <!-- Results table -->
+    <div id="resultsContainer" style="display:none;">
+        <table id="resultsTable">
+            <thead>
+            <tr>
+                <th>UID</th>
+                <th>Text Chunk</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <!-- AI response -->
+    <div class="ai-response" id="aiResponse" style="display:none;"></div>
+</div>
+
+<!-- Scripts -->
+<script>
+    const searchBtn = document.getElementById('searchBtn');
+    const queryInput = document.getElementById('queryInput');
+    const resultsContainer = document.getElementById('resultsContainer');
+    const resultsTableBody = document.querySelector('#resultsTable tbody');
+    const aiResponseDiv = document.getElementById('aiResponse');
+    const loadingOverlay = document.getElementById('loading');
+
+    function showLoading(show) {
+        loadingOverlay.style.display = show ? 'flex' : 'none';
+    }
+
+    searchBtn.onclick = () => {
+        const query = queryInput.value.trim();
+        if (!query) {
+            alert('Please enter a query!');
+            return;
+        }
+        fetchResults(query);
+    };
+
+    async function fetchResults(query) {
+        showLoading(true);
+        // Clear previous results
+        resultsTableBody.innerHTML = '';
+        resultsContainer.style.display = 'none';
+        aiResponseDiv.style.display = 'none';
+
+        try {
+            const response = await fetch('search', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ query })
+            });
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            const data = await response.json();
+
+            // Populate table
+            if (data.recDocResponseList && data.recDocResponseList.length > 0) {
+                data.recDocResponseList.forEach(item => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+            <td style="border-radius: 10px;">${escapeHtml(item.uid)}</td>
+            <td style="border-radius: 10px;">${escapeHtml(item.textChunk)}</td>
+          `;
+                    resultsTableBody.appendChild(row);
+                });
+                resultsContainer.style.display = 'block';
+            } else {
+                resultsContainer.style.display = 'none';
+            }
+
+            // Show AI response
+            aiResponseDiv.innerHTML = escapeHtml(data.aiResponse || '');
+            aiResponseDiv.style.display = 'block';
+
+        } catch (error) {
+            alert('Error fetching data: ' + error.message);
+        } finally {
+            showLoading(false);
+        }
+    }
+
+    function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.innerText = text;
+        return div.innerHTML;
+    }
+</script>
+
 </body>
 </html>
