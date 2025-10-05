@@ -1,5 +1,6 @@
 package org.khodyko.docragai.config;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.ollama.OllamaChatModel;
 import org.springframework.ai.ollama.api.OllamaApi;
 import org.springframework.ai.ollama.api.OllamaOptions;
@@ -15,6 +16,7 @@ import java.time.Duration;
 
 import static org.apache.xmpbox.schema.TiffSchema.MODEL;
 
+@Slf4j
 @Configuration
 public class AiConfig {
 
@@ -29,7 +31,7 @@ public class AiConfig {
                     @Override
                     public <T extends Object, E extends Throwable> void onError(RetryContext context,
                                                                                 RetryCallback<T, E> callback, Throwable throwable) {
-//                        logger.warn("Retry error. Retry count:" + context.getRetryCount(), throwable);
+                        log.warn("Retry error. Retry count:{}", context.getRetryCount(), throwable);
                     }
                 })
                 .build();
@@ -39,23 +41,5 @@ public class AiConfig {
                 .retryTemplate(retryTemplate)
                 .build();
     }
-
-//    @Bean
-//    public VectorStore vectorStore(EmbeddingClient embeddingClient) {
-//        WeaviateVectorStoreConfig config = WeaviateVectorStoreConfig.builder()
-//                .withScheme("http")
-//                .withHost("localhost:8080")
-//                // Define the metadata fields to be used
-//                // in the similarity search filters.
-//                .withFilterableMetadataFields(List.of(
-//                        WeaviateVectorStore.MetadataField.text("fileName"))
-//                      )
-//                // Consistency level can be: ONE, QUORUM, or ALL.
-//                .withConsistencyLevel(WeaviateVectorStore.ConsistentLevel.ONE)
-//                .build();
-//
-//        return new WeaviateVectorStore(config, embeddingClient);
-//    }
-
 
 }

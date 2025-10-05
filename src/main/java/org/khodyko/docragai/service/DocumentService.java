@@ -1,6 +1,7 @@
 package org.khodyko.docragai.service;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.reader.tika.TikaDocumentReader;
 import org.springframework.ai.transformer.splitter.TextSplitter;
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class DocumentService {
@@ -34,9 +36,9 @@ public class DocumentService {
             }
 
         } catch (Exception e) {
-            IO.println(e);
+            log.warn("error while read documents",e);
         }
-        IO.println("allDocS Readed");
+        log.debug("allDocS Readed");
     }
 
     public void cleanAllDocuments() {
@@ -47,6 +49,6 @@ public class DocumentService {
             }
             docs = vectorStore.similaritySearch("");
         }
-        System.out.println("everything deleted");
+        log.debug("everything deleted");
     }
 }

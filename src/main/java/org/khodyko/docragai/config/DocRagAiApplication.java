@@ -1,6 +1,7 @@
 package org.khodyko.docragai.config;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.khodyko.docragai.service.DocumentService;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.ollama.OllamaChatModel;
@@ -17,6 +18,7 @@ import java.util.List;
 
 @SpringBootApplication(scanBasePackages = "org.khodyko.docragai", exclude = {DataSourceAutoConfiguration.class})
 @RequiredArgsConstructor
+@Slf4j
 public class DocRagAiApplication implements CommandLineRunner {
 
     private final OllamaChatModel chatModel;
@@ -58,7 +60,7 @@ public class DocRagAiApplication implements CommandLineRunner {
                 .similarityThreshold(0.6d)
 //                .filterExpression(expression)
                 .build();
-        List<Document> docs=vectorStore.similaritySearch(searchRequest);
-        IO.println(docs);
+        List<Document> docs = vectorStore.similaritySearch(searchRequest);
+        log.debug(docs.toString());
     }
 }
