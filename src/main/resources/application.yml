@@ -1,0 +1,18 @@
+server:
+  port: 9191
+spring:
+  application:
+    name: doc-rag-ai
+  ai:
+    vectorstore:
+      weaviate:
+        host: localhost:8080
+        scheme: http
+        filter-field:
+          fileName: TEXT
+    ollama:
+      embedding:
+        model: nomic-embed-text
+      base-url: http://localhost:11434
+      chat:
+        model: llama3:8b
