@@ -1,5 +1,13 @@
 server:
   port: 9191
+  servlet:
+    context-path: /docrec
+    http2:
+      enabled: true
+    compression:
+      enabled: true
+      mime-types: application/json,application/xml,text/html
+      min-response-size: 1024
 spring:
   application:
     name: doc-rag-ai
