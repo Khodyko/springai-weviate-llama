@@ -1,0 +1,126 @@
+{
+  "deprecations": null,
+  "objects": [
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1759697160255,
+      "id": "00b521b8-46cc-4e9b-aead-b96274c5a52d",
+      "lastUpdateTimeUnix": 1759697160255,
+      "properties": {
+        "content": "What they need is a modern, AI-centric governance solution. We could not be more excited to join the Databricks team and to bring our expertise in building secure, scalable and simple governance solutions for some of the world’s most forward-thinking enterprises.”\n\nIf you know more about this acquisition, you can contact Frederic on Signal at (860) 208-3416 or by email (frederic@techcrunch.com). You can also reach us via SecureDrop.",
+        "meta_uid": "07-05-databricks-acquires-ai-centric-data-governance-platform-okera.txt",
+        "metadata": "{\"uid\":\"07-05-databricks-acquires-ai-centric-data-governance-platform-okera.txt\",\"source\":\"07-05-databricks-acquires-ai-centric-data-governance-platform-okera.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1759697160255,
+      "id": "02a010c5-a1ed-45a5-a60c-009c853f8bfa",
+      "lastUpdateTimeUnix": 1759697160255,
+      "properties": {
+        "content": "It also looks like it shares some common design DNA with Oppo’s recently foldable, which is frankly the right direction. EV Leaks says the foldable is half an inch thick when folded and 0.2 inches unfolded, weight in at 283 grams.\n\nAs evidenced by our trip to MWC back in February, foldables are no longer fringe devices.",
+        "meta_uid": "08-05-google-i-o-2023-is-next-week-heres-what-were-expecting.txt",
+        "metadata": "{\"uid\":\"08-05-google-i-o-2023-is-next-week-heres-what-were-expecting.txt\",\"source\":\"08-05-google-i-o-2023-is-next-week-heres-what-were-expecting.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1759697160255,
+      "id": "0310353d-9b08-41ff-80eb-7366994c2577",
+      "lastUpdateTimeUnix": 1759697160255,
+      "properties": {
+        "content": "Effectively there are two points this year Google is likely to officially announce the thing: next week or September/October. I would be shocked if the company’s long-awaited (?) reentry into the category doesn’t, at the very least, get a bit of stage time. As a category, the Android tablet has been very hit or miss over the years — presumably/hopefully the company’s got a unique spin here.",
+        "meta_uid": "08-05-google-i-o-2023-is-next-week-heres-what-were-expecting.txt",
+        "metadata": "{\"uid\":\"08-05-google-i-o-2023-is-next-week-heres-what-were-expecting.txt\",\"source\":\"08-05-google-i-o-2023-is-next-week-heres-what-were-expecting.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1759697160255,
+      "id": "03e7a220-b063-4002-9168-b6a81c47a0c7",
+      "lastUpdateTimeUnix": 1759697160255,
+      "properties": {
+        "content": "In the technical paper accompanying StarCoder’s release, Hugging Face and ServiceNow say that the model may produce inaccurate, offensive, and misleading content as well as PII and malicious code that managed to make it past the dataset filtering stage.\n\nDid you know that the Apache Parquet data storage format was created by Nong Li, a co-founder of Okera and former engineer at Databricks?",
+        "meta_uid": "05-04-hugging-face-and-servicenow-release-a-free-code-generating-model.txt",
+        "metadata": "{\"uid\":\"05-04-hugging-face-and-servicenow-release-a-free-code-generating-model.txt\",\"source\":\"05-04-hugging-face-and-servicenow-release-a-free-code-generating-model.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1759697160255,
+      "id": "046c0e1a-83d3-4636-9834-795abb9390d9",
+      "lastUpdateTimeUnix": 1759697160255,
+      "properties": {
+        "content": "Even more concerning, the co-authors found having ChatGPT pose as certain historical figures, gendered people and members of political parties also increased its toxicity — with journalists, men and Republicans in particular causing the machine learning model to say more offensive things than it normally would.\n\nThe research was conducted using the latest version of ChatGPT, but not the model currently in preview based on OpenAI’s GPT-4.\n\nApril 4, 2023",
+        "meta_uid": "01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt",
+        "metadata": "{\"uid\":\"01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt\",\"source\":\"01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1759697160255,
+      "id": "04aa599c-147f-4f07-908f-ada9360f8061",
+      "lastUpdateTimeUnix": 1759697160255,
+      "properties": {
+        "content": "In its privacy policy, the ChatGPT maker makes a passing acknowledgement of the objection requirements attached to relying on “legitimate interest” (LI), pointing users towards more information about requesting an opt out — when it writes: “See here for instructions on how you can opt out of our use of your information to train our models.”\n\nWhat controversies have surrounded ChatGPT?",
+        "meta_uid": "01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt",
+        "metadata": "{\"uid\":\"01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt\",\"source\":\"01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1759697160255,
+      "id": "04b8af43-4c1a-45b8-90c8-279589680a4f",
+      "lastUpdateTimeUnix": 1759697160255,
+      "properties": {
+        "content": "Clearly, there’s a demand from artists for more say in how their art’s used (or scraped, as the case may be). But beyond partnerships with art platforms like Shutterstock and ArtStation, Spawning hasn’t managed to rally the industry around a common opt-out or provenance standard.\n\nAdobe, which recently announced generative AI tools, is pursuing its own opt-out mechanisms and tooling.",
+        "meta_uid": "05-03-spawning-lays-out-its-plans-for-letting-creators-opt-out-of-generative-ai-training.txt",
+        "metadata": "{\"uid\":\"05-03-spawning-lays-out-its-plans-for-letting-creators-opt-out-of-generative-ai-training.txt\",\"source\":\"05-03-spawning-lays-out-its-plans-for-letting-creators-opt-out-of-generative-ai-training.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1759697160255,
+      "id": "06c734e4-3f03-4019-af86-7f1cf0b7b10e",
+      "lastUpdateTimeUnix": 1759697160255,
+      "properties": {
+        "content": "Tage Kene-Okafor reported on Fingo, a YC-backed Kenyan fintech, which launched a neobank — the first of its kind in the East African country, according to the company — in collaboration with Pan-African financial institution Ecobank Kenya.",
+        "meta_uid": "01-07-fintech-space-continues-to-be-competitive-and-drama-filled.txt",
+        "metadata": "{\"uid\":\"01-07-fintech-space-continues-to-be-competitive-and-drama-filled.txt\",\"source\":\"01-07-fintech-space-continues-to-be-competitive-and-drama-filled.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1759697160255,
+      "id": "06cf773c-01ad-4240-ae56-62bde5552dba",
+      "lastUpdateTimeUnix": 1759697160255,
+      "properties": {
+        "content": "If GPT-4 generalizes well to answering questions about precedents in contract law, great — never mind that a huge number of its “intellect” is dedicated to being able to parrot the style of every author who ever published a work in the English language. GPT-4 is like a Walmart. No one actually wants to go there, so the company makes damn sure there’s no other option.",
+        "meta_uid": "06-05-google-and-openai-are-walmarts-besieged-by-fruit-stands.txt",
+        "metadata": "{\"uid\":\"06-05-google-and-openai-are-walmarts-besieged-by-fruit-stands.txt\",\"source\":\"06-05-google-and-openai-are-walmarts-besieged-by-fruit-stands.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1759697160255,
+      "id": "07475d3f-7a0e-4bda-96a9-ee1cc32ca8b7",
+      "lastUpdateTimeUnix": 1759697160255,
+      "properties": {
+        "content": "In an interview with TechCrunch, Brex co-founder and co-CEO Henrique Dubugras said that the company believes the move “will really open up TAM” for Brex since so many existing and prospective U.S. clients “have some sort of global operations.”\n\n“One of the big problems that companies have when they operate globally is that they actually need to open up an account in all these different countries where they might have employees.",
+        "meta_uid": "01-07-fintech-space-continues-to-be-competitive-and-drama-filled.txt",
+        "metadata": "{\"uid\":\"01-07-fintech-space-continues-to-be-competitive-and-drama-filled.txt\",\"source\":\"01-07-fintech-space-continues-to-be-competitive-and-drama-filled.txt\"}"
+      },
+      "vectorWeights": null
+    }
+  ],
+  "totalResults": 10
+}
