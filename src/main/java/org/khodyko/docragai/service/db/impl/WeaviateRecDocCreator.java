@@ -1,6 +1,6 @@
-package org.khodyko.docragai.service.impl;
+package org.khodyko.docragai.service.db.impl;
 
-import org.khodyko.docragai.service.RecDocCreator;
+import org.khodyko.docragai.service.db.RecDocCreator;
 import org.khodyko.docragai.vo.RecDocMetaData;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.reader.tika.TikaDocumentReader;

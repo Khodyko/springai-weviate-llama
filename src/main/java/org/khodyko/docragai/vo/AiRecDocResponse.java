@@ -1,6 +1,5 @@
 package org.khodyko.docragai.vo;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -8,8 +7,6 @@ import org.springframework.ai.document.Document;
 import org.springframework.util.CollectionUtils;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
 @NoArgsConstructor
@@ -21,8 +18,11 @@ public class AiRecDocResponse {
 
     public AiRecDocResponse(List<Document> documents, String aiResponse) {
         this.recDocResponseList = new ArrayList<>();
+
         if (CollectionUtils.isEmpty(documents)) {
-            this.aiResponse = "Записи не найдены.";
+            this.aiResponse = aiResponse;
+            //todo delete and uncomment
+//            this.aiResponse = "Записи не найдены.";
         } else {
             this.aiResponse = aiResponse;
             for (Document document : documents) {

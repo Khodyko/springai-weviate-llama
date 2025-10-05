@@ -118,11 +118,13 @@
 <div class="loading" id="loading">Loading...</div>
 
 <div class="container">
-    <h1>Search Documents</h1>
+    <h1>Поиск документов</h1>
     <div class="search-box">
         <input type="text" id="queryInput" placeholder="Enter your query" />
         <button id="searchBtn">Search</button>
     </div>
+    <!-- AI response -->
+    <div class="ai-response" id="aiResponse" style="display:none;"></div>
 
     <!-- Results table -->
     <div id="resultsContainer" style="display:none;">
@@ -137,8 +139,7 @@
         </table>
     </div>
 
-    <!-- AI response -->
-    <div class="ai-response" id="aiResponse" style="display:none;"></div>
+
 </div>
 
 <!-- Scripts -->
@@ -168,7 +169,7 @@
         // Clear previous results
         resultsTableBody.innerHTML = '';
         resultsContainer.style.display = 'none';
-        aiResponseDiv.style.display = 'none';
+        aiResponseDiv.style.display = 'block';
 
         try {
             const response = await fetch('search', {
@@ -200,7 +201,7 @@
 
             // Show AI response
             aiResponseDiv.innerHTML = escapeHtml(data.aiResponse || '');
-            aiResponseDiv.style.display = 'block';
+
 
         } catch (error) {
             alert('Error fetching data: ' + error.message);

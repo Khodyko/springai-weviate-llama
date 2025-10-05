@@ -1,9 +1,9 @@
-package org.khodyko.docragai.service.impl;
+package org.khodyko.docragai.service.db.impl;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.khodyko.docragai.service.RecDocService;
-import org.khodyko.docragai.service.RecDocCreator;
+import org.khodyko.docragai.service.db.RecDocService;
+import org.khodyko.docragai.service.db.RecDocCreator;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.vectorstore.SearchRequest;
 import org.springframework.ai.vectorstore.VectorStore;

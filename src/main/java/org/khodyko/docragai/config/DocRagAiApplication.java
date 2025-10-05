@@ -2,7 +2,7 @@ package org.khodyko.docragai.config;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.khodyko.docragai.service.RecDocService;
+import org.khodyko.docragai.service.db.RecDocService;
 import org.springframework.ai.ollama.OllamaChatModel;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.boot.CommandLineRunner;
@@ -27,24 +27,5 @@ public class DocRagAiApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-//        String promptText = "Привет! Объясни коротко, что делает модель Llama3?";
-//        ChatResponse response = chatModel.call(
-//                new Prompt(
-//                        promptText,
-//                        OllamaOptions.builder()
-//                                .model("llama3:8b")
-//                                .temperature(0.4)
-//                                .build()
-//                ));
-//
-//        System.out.println(response);
-
-//        recDocService.readDocumentsFromResourceFolder();
-
-
-//        recDocService.cleanAllDocuments();
-
-
-
     }
 }

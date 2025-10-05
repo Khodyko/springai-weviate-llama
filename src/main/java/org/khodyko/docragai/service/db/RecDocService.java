@@ -1,4 +1,4 @@
-package org.khodyko.docragai.service;
+package org.khodyko.docragai.service.db;
 
 import org.springframework.ai.document.Document;
 
