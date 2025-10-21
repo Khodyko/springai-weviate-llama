@@ -3,107 +3,11 @@
   "objects": [
     {
       "class": "SpringAiWeaviate",
-      "creationTimeUnix": 1759697160255,
-      "id": "00b521b8-46cc-4e9b-aead-b96274c5a52d",
-      "lastUpdateTimeUnix": 1759697160255,
+      "creationTimeUnix": 1760980952052,
+      "id": "003f00f7-9c94-407b-a487-624d4240bd44",
+      "lastUpdateTimeUnix": 1760980952052,
       "properties": {
-        "content": "What they need is a modern, AI-centric governance solution. We could not be more excited to join the Databricks team and to bring our expertise in building secure, scalable and simple governance solutions for some of the world’s most forward-thinking enterprises.”\n\nIf you know more about this acquisition, you can contact Frederic on Signal at (860) 208-3416 or by email (frederic@techcrunch.com). You can also reach us via SecureDrop.",
-        "meta_uid": "07-05-databricks-acquires-ai-centric-data-governance-platform-okera.txt",
-        "metadata": "{\"uid\":\"07-05-databricks-acquires-ai-centric-data-governance-platform-okera.txt\",\"source\":\"07-05-databricks-acquires-ai-centric-data-governance-platform-okera.txt\"}"
-      },
-      "vectorWeights": null
-    },
-    {
-      "class": "SpringAiWeaviate",
-      "creationTimeUnix": 1759697160255,
-      "id": "02a010c5-a1ed-45a5-a60c-009c853f8bfa",
-      "lastUpdateTimeUnix": 1759697160255,
-      "properties": {
-        "content": "It also looks like it shares some common design DNA with Oppo’s recently foldable, which is frankly the right direction. EV Leaks says the foldable is half an inch thick when folded and 0.2 inches unfolded, weight in at 283 grams.\n\nAs evidenced by our trip to MWC back in February, foldables are no longer fringe devices.",
-        "meta_uid": "08-05-google-i-o-2023-is-next-week-heres-what-were-expecting.txt",
-        "metadata": "{\"uid\":\"08-05-google-i-o-2023-is-next-week-heres-what-were-expecting.txt\",\"source\":\"08-05-google-i-o-2023-is-next-week-heres-what-were-expecting.txt\"}"
-      },
-      "vectorWeights": null
-    },
-    {
-      "class": "SpringAiWeaviate",
-      "creationTimeUnix": 1759697160255,
-      "id": "0310353d-9b08-41ff-80eb-7366994c2577",
-      "lastUpdateTimeUnix": 1759697160255,
-      "properties": {
-        "content": "Effectively there are two points this year Google is likely to officially announce the thing: next week or September/October. I would be shocked if the company’s long-awaited (?) reentry into the category doesn’t, at the very least, get a bit of stage time. As a category, the Android tablet has been very hit or miss over the years — presumably/hopefully the company’s got a unique spin here.",
-        "meta_uid": "08-05-google-i-o-2023-is-next-week-heres-what-were-expecting.txt",
-        "metadata": "{\"uid\":\"08-05-google-i-o-2023-is-next-week-heres-what-were-expecting.txt\",\"source\":\"08-05-google-i-o-2023-is-next-week-heres-what-were-expecting.txt\"}"
-      },
-      "vectorWeights": null
-    },
-    {
-      "class": "SpringAiWeaviate",
-      "creationTimeUnix": 1759697160255,
-      "id": "03e7a220-b063-4002-9168-b6a81c47a0c7",
-      "lastUpdateTimeUnix": 1759697160255,
-      "properties": {
-        "content": "In the technical paper accompanying StarCoder’s release, Hugging Face and ServiceNow say that the model may produce inaccurate, offensive, and misleading content as well as PII and malicious code that managed to make it past the dataset filtering stage.\n\nDid you know that the Apache Parquet data storage format was created by Nong Li, a co-founder of Okera and former engineer at Databricks?",
-        "meta_uid": "05-04-hugging-face-and-servicenow-release-a-free-code-generating-model.txt",
-        "metadata": "{\"uid\":\"05-04-hugging-face-and-servicenow-release-a-free-code-generating-model.txt\",\"source\":\"05-04-hugging-face-and-servicenow-release-a-free-code-generating-model.txt\"}"
-      },
-      "vectorWeights": null
-    },
-    {
-      "class": "SpringAiWeaviate",
-      "creationTimeUnix": 1759697160255,
-      "id": "046c0e1a-83d3-4636-9834-795abb9390d9",
-      "lastUpdateTimeUnix": 1759697160255,
-      "properties": {
-        "content": "Even more concerning, the co-authors found having ChatGPT pose as certain historical figures, gendered people and members of political parties also increased its toxicity — with journalists, men and Republicans in particular causing the machine learning model to say more offensive things than it normally would.\n\nThe research was conducted using the latest version of ChatGPT, but not the model currently in preview based on OpenAI’s GPT-4.\n\nApril 4, 2023",
-        "meta_uid": "01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt",
-        "metadata": "{\"uid\":\"01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt\",\"source\":\"01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt\"}"
-      },
-      "vectorWeights": null
-    },
-    {
-      "class": "SpringAiWeaviate",
-      "creationTimeUnix": 1759697160255,
-      "id": "04aa599c-147f-4f07-908f-ada9360f8061",
-      "lastUpdateTimeUnix": 1759697160255,
-      "properties": {
-        "content": "In its privacy policy, the ChatGPT maker makes a passing acknowledgement of the objection requirements attached to relying on “legitimate interest” (LI), pointing users towards more information about requesting an opt out — when it writes: “See here for instructions on how you can opt out of our use of your information to train our models.”\n\nWhat controversies have surrounded ChatGPT?",
-        "meta_uid": "01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt",
-        "metadata": "{\"uid\":\"01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt\",\"source\":\"01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt\"}"
-      },
-      "vectorWeights": null
-    },
-    {
-      "class": "SpringAiWeaviate",
-      "creationTimeUnix": 1759697160255,
-      "id": "04b8af43-4c1a-45b8-90c8-279589680a4f",
-      "lastUpdateTimeUnix": 1759697160255,
-      "properties": {
-        "content": "Clearly, there’s a demand from artists for more say in how their art’s used (or scraped, as the case may be). But beyond partnerships with art platforms like Shutterstock and ArtStation, Spawning hasn’t managed to rally the industry around a common opt-out or provenance standard.\n\nAdobe, which recently announced generative AI tools, is pursuing its own opt-out mechanisms and tooling.",
-        "meta_uid": "05-03-spawning-lays-out-its-plans-for-letting-creators-opt-out-of-generative-ai-training.txt",
-        "metadata": "{\"uid\":\"05-03-spawning-lays-out-its-plans-for-letting-creators-opt-out-of-generative-ai-training.txt\",\"source\":\"05-03-spawning-lays-out-its-plans-for-letting-creators-opt-out-of-generative-ai-training.txt\"}"
-      },
-      "vectorWeights": null
-    },
-    {
-      "class": "SpringAiWeaviate",
-      "creationTimeUnix": 1759697160255,
-      "id": "06c734e4-3f03-4019-af86-7f1cf0b7b10e",
-      "lastUpdateTimeUnix": 1759697160255,
-      "properties": {
-        "content": "Tage Kene-Okafor reported on Fingo, a YC-backed Kenyan fintech, which launched a neobank — the first of its kind in the East African country, according to the company — in collaboration with Pan-African financial institution Ecobank Kenya.",
-        "meta_uid": "01-07-fintech-space-continues-to-be-competitive-and-drama-filled.txt",
-        "metadata": "{\"uid\":\"01-07-fintech-space-continues-to-be-competitive-and-drama-filled.txt\",\"source\":\"01-07-fintech-space-continues-to-be-competitive-and-drama-filled.txt\"}"
-      },
-      "vectorWeights": null
-    },
-    {
-      "class": "SpringAiWeaviate",
-      "creationTimeUnix": 1759697160255,
-      "id": "06cf773c-01ad-4240-ae56-62bde5552dba",
-      "lastUpdateTimeUnix": 1759697160255,
-      "properties": {
-        "content": "If GPT-4 generalizes well to answering questions about precedents in contract law, great — never mind that a huge number of its “intellect” is dedicated to being able to parrot the style of every author who ever published a work in the English language. GPT-4 is like a Walmart. No one actually wants to go there, so the company makes damn sure there’s no other option.",
+        "content": "The notion is not new by a long shot — in the fast-moving AI community, it’s expected to see this kind of disruption on a weekly basis — but the situation was put in perspective by a widely shared document purported to originate within Google. “We have no moat, and neither does OpenAI,” the memo reads.",
         "meta_uid": "06-05-google-and-openai-are-walmarts-besieged-by-fruit-stands.txt",
         "metadata": "{\"uid\":\"06-05-google-and-openai-are-walmarts-besieged-by-fruit-stands.txt\",\"source\":\"06-05-google-and-openai-are-walmarts-besieged-by-fruit-stands.txt\"}"
       },
@@ -111,13 +15,109 @@
     },
     {
       "class": "SpringAiWeaviate",
-      "creationTimeUnix": 1759697160255,
-      "id": "07475d3f-7a0e-4bda-96a9-ee1cc32ca8b7",
-      "lastUpdateTimeUnix": 1759697160255,
+      "creationTimeUnix": 1760980952052,
+      "id": "00acb052-30ab-46f7-a86a-bb731e1177bf",
+      "lastUpdateTimeUnix": 1760980952052,
       "properties": {
-        "content": "In an interview with TechCrunch, Brex co-founder and co-CEO Henrique Dubugras said that the company believes the move “will really open up TAM” for Brex since so many existing and prospective U.S. clients “have some sort of global operations.”\n\n“One of the big problems that companies have when they operate globally is that they actually need to open up an account in all these different countries where they might have employees.",
-        "meta_uid": "01-07-fintech-space-continues-to-be-competitive-and-drama-filled.txt",
-        "metadata": "{\"uid\":\"01-07-fintech-space-continues-to-be-competitive-and-drama-filled.txt\",\"source\":\"01-07-fintech-space-continues-to-be-competitive-and-drama-filled.txt\"}"
+        "content": "Yuma, whose customer demographic is primarily Shopify merchants, provides ChatGPT-like AI systems that integrate with help desk software, suggesting drafts of replies to customer tickets.\n\nBaselit, which uses one of OpenAI’s text-understanding models to allow businesses to embed chatbot-style analytics for their customers.",
+        "meta_uid": "01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt",
+        "metadata": "{\"uid\":\"01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt\",\"source\":\"01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1760980952052,
+      "id": "01421893-d6c4-430e-bebe-9dbc42892877",
+      "lastUpdateTimeUnix": 1760980952052,
+      "properties": {
+        "content": "Single-vote polls let users run a poll where people are only allowed to vote once, including multiple choice, as has been the default.\n\nMeta announced this week. Single-vote polls let users run a poll where people are only allowed to vote once, including multiple choice, as has been the default. Reddit’s latest update provides link previews for messaging apps.",
+        "meta_uid": "05-09-this-week-in-apps-apple-and-google-team-up-on-trackers-google-i-o-preview-apps-hit-newfronts.txt",
+        "metadata": "{\"uid\":\"05-09-this-week-in-apps-apple-and-google-team-up-on-trackers-google-i-o-preview-apps-hit-newfronts.txt\",\"source\":\"05-09-this-week-in-apps-apple-and-google-team-up-on-trackers-google-i-o-preview-apps-hit-newfronts.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1760980952052,
+      "id": "0201f3a2-4388-4c43-a075-7bdd72a527ee",
+      "lastUpdateTimeUnix": 1760980952052,
+      "properties": {
+        "content": "DeepFloyd IF performs diffusion not once but several times, generating a 64x64px image then upscaling the image to 256x256px and finally to 1024x1024px.\n\nWhy the need for multiple diffusion steps? DeepFloyd IF works directly with pixels, Russell explained. Diffusion models are for the most part latent diffusion models, which essentially means they work in a lower-dimensional space that represents a lot more pixels but in a less accurate way.",
+        "meta_uid": "05-05-with-deepfloyd-generative-ai-art-gets-a-text-upgrade.txt",
+        "metadata": "{\"uid\":\"05-05-with-deepfloyd-generative-ai-art-gets-a-text-upgrade.txt\",\"source\":\"05-05-with-deepfloyd-generative-ai-art-gets-a-text-upgrade.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1760980952052,
+      "id": "0203e7dd-59b5-465d-a6aa-382b3db9804b",
+      "lastUpdateTimeUnix": 1760980952052,
+      "properties": {
+        "content": "Other companies beyond Microsoft joined in on the AI craze by implementing ChatGPT, including OkCupid, Kaito, Snapchat and Discord — putting the pressure on Big Tech’s AI initiatives, like Google.\n\nFebruary 1, 2023\n\nAfter ChatGPT took the internet by storm, OpenAI launched a new pilot subscription plan for ChatGPT called ChatGPT Plus, aiming to monetize the technology starting at $20 per month.\n\nDecember 8, 2022",
+        "meta_uid": "01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt",
+        "metadata": "{\"uid\":\"01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt\",\"source\":\"01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1760980952052,
+      "id": "0231c406-e6cb-4118-bac5-0199122339e7",
+      "lastUpdateTimeUnix": 1760980952052,
+      "properties": {
+        "content": "Raise Financial, and gaming firm Loco.\n\n3one4 Capital has gained a reputation for its contrarian investment approach, as exemplified by its early investment in Licious. Over five years ago, the prevailing opinion held that India’s price-sensitive market would not pay a premium for online meat delivery. However, Licious has since grown into one of South Asia’s largest direct-to-consumer brands, with a presence in approximately two dozen cities across India.",
+        "meta_uid": "02-07-3one4-capital-driven-by-contrarian-bets-raises-200-million-new-fund.txt",
+        "metadata": "{\"uid\":\"02-07-3one4-capital-driven-by-contrarian-bets-raises-200-million-new-fund.txt\",\"source\":\"02-07-3one4-capital-driven-by-contrarian-bets-raises-200-million-new-fund.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1760980952052,
+      "id": "02ffe1c8-4378-477b-b2b0-9ecdcb293e75",
+      "lastUpdateTimeUnix": 1760980952052,
+      "properties": {
+        "content": "Because it’s permissively licensed, code from The Stack can be copied, modified and redistributed. But the BigCode project also provides a way for developers to “opt out” of The Stack, similar to efforts elsewhere to let artists remove their work from text-to-image AI training datasets.\n\nThe BigCode team also worked to remove PII from The Stack, such as names, usernames, email and IP addresses, and keys and passwords.",
+        "meta_uid": "05-04-hugging-face-and-servicenow-release-a-free-code-generating-model.txt",
+        "metadata": "{\"uid\":\"05-04-hugging-face-and-servicenow-release-a-free-code-generating-model.txt\",\"source\":\"05-04-hugging-face-and-servicenow-release-a-free-code-generating-model.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1760980952052,
+      "id": "031322fa-a35c-47f4-a0d8-c97d1d15c6bc",
+      "lastUpdateTimeUnix": 1760980952052,
+      "properties": {
+        "content": "Lasso customers send descriptions or videos of the processes they’d like to automate and the company combines ChatGPT-like interface with robotic process automation (RPA) and a Chrome extension to build out those automations.\n\nBerriAI, whose platform is designed to help developers spin up ChatGPT apps for their organization data through various data connectors.\n\nApril 1, 2023\n\nOpenAI has started geoblocking access to its generative AI chatbot, ChatGPT, in Italy.",
+        "meta_uid": "01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt",
+        "metadata": "{\"uid\":\"01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt\",\"source\":\"01-03-chatgpt-everything-you-need-to-know-about-the-ai-powered-chatbot.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1760980952052,
+      "id": "045c12bf-7100-48ae-8520-12b42dcb1be6",
+      "lastUpdateTimeUnix": 1760980952052,
+      "properties": {
+        "content": "Spawning created HaveIBeenTrained, a website that allows creators to opt out of the training dataset for one art-generating AI model, Stable Diffusion v3, due to be released in the coming months.\n\nAs of March, artists had used HaveIBeenTrained to remove 80 million pieces of artwork from the Stable Diffusion training set. By late April, that figure had eclipsed 1 billion.",
+        "meta_uid": "05-03-spawning-lays-out-its-plans-for-letting-creators-opt-out-of-generative-ai-training.txt",
+        "metadata": "{\"uid\":\"05-03-spawning-lays-out-its-plans-for-letting-creators-opt-out-of-generative-ai-training.txt\",\"source\":\"05-03-spawning-lays-out-its-plans-for-letting-creators-opt-out-of-generative-ai-training.txt\"}"
+      },
+      "vectorWeights": null
+    },
+    {
+      "class": "SpringAiWeaviate",
+      "creationTimeUnix": 1760980952052,
+      "id": "04c0394b-b001-4344-82c6-0f83da6e2c6f",
+      "lastUpdateTimeUnix": 1760980952052,
+      "properties": {
+        "content": "First, it plans to make it easier for AI model trainers to honor opt-out requests and streamline the process for creators. Then, Spawning will offer more services to organizations seeking to protect the work of their artists, Meyer says.\n\n“We want to build the consent layer for AI, which we feel will be a fundamentally helpful piece of infrastructure moving forward,” he added.",
+        "meta_uid": "05-03-spawning-lays-out-its-plans-for-letting-creators-opt-out-of-generative-ai-training.txt",
+        "metadata": "{\"uid\":\"05-03-spawning-lays-out-its-plans-for-letting-creators-opt-out-of-generative-ai-training.txt\",\"source\":\"05-03-spawning-lays-out-its-plans-for-letting-creators-opt-out-of-generative-ai-training.txt\"}"
       },
       "vectorWeights": null
     }

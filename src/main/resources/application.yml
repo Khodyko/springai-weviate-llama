@@ -12,20 +12,25 @@ spring:
   application:
     name: doc-rag-ai
   ai:
-    embedding:
-      ollama:
-        base-url: http://localhost:11434
-        model: mxbai-embed-large
-    vectorstore:
-      weaviate:
-        host: localhost:8080
-        scheme: http
-        filter-field:
-          uid: TEXT
+#    embedding:
+#      ollama:
+#        base-url: http://localhost:11434
+#        model: mxbai-embed-large
+#    vectorstore:
+#      weaviate:
+#        host: localhost:8080
+#        scheme: http
+#        filter-field:
+#          uid: TEXT
     ollama:
       base-url: http://localhost:11434
       chat:
         model: llama3:8b
+    openai:
+      api-key: ${OPEN_AI_KEY}
+      chat:
+        options:
+          model: gpt-4o
 logging:
   level:
     org.khodyko.docragai: DEBUG

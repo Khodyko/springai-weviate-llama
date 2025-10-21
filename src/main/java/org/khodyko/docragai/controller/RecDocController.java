@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -31,9 +30,11 @@ public class RecDocController {
     @PostMapping("/search")
     public AiRecDocResponse searchInVectorDb(@RequestBody Map<String, String> request) {
         String query = request.get("query");
+//        fillDbFromFolder();
 //        List<Document> docs = recDocService.searchRecDocs(query);
-        List<Document> docs = new ArrayList<>();
-        String aiResponse = aiRagProcessor.askAi(query);
+        List<Document> docs = recDocService.searchRecDocs(query);
+//        List<Document> docs=new ArrayList<>();
+        String aiResponse = aiRagProcessor.askAi(query,  docs);
         return new AiRecDocResponse(docs, aiResponse);
     }
 }
